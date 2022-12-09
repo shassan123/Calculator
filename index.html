@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./java.js"></script>
+  </head>
+  <body>
+    <!-- <h1>Simple Calculator:</h1> -->
+    <div class="calculator">
+      <div class="clear-input">
+        <button id="clear" onclick="myclearbtn()">AC</button>
+        <input type="text" id="input" />
+      </div>
+      <div class="all-rows">
+        <div class="row">
+          <button id="button-one" onclick="myFunction()">1</button>
+          <button id="button-two" onclick="mybtntwo()">2</button>
+          <button id="button-three" onclick="mybtnthree()">3</button>
+          <button id="button-multiply" onclick="mybtnmul()">*</button>
+        </div>
+        <div class="row">
+          <button id="button-four" onclick="mybtnfour()">4</button>
+          <button id="button-five" onclick="mybtnfive()">5</button>
+          <button id="button-six" onclick="mybtnsix()">6</button>
+          <button id="button-add" onclick="mybtnadd()">+</button>
+        </div>
+        <div class="row">
+          <button id="button-seven" onclick="mybtnseven()">7</button>
+          <button id="button-eight" onclick="mybtneight()">8</button>
+          <button id="button-nine" onclick="mybtnnine()">9</button>
+          <button id="button-subtract" onclick="mybtnsub()">-</button>
+        </div>
+        <div class="row">
+          <button id="button-zero" onclick="mybtnzero()">0</button>
+          <button id="button-d-zero" onclick="mybtndbzero()">00</button>
+          <button id="button-equal" onclick="mybtnequal()">=</button>
+          <button id="button-divide" onclick="mybtndiv()">/</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
